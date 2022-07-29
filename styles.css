@@ -6,3 +6,22 @@ img {
   width: 200px;
   height: 200px;
 }
+
+.left {
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+
+.down {
+  transform: rotate(90deg);
+  transition: 0.5s;
+}
+
+.up {
+  transform: rotate(270deg);
+  transition: 0.5s;
+}
+
+.right {
+  transition: 0.5s;
+}
