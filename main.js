@@ -1,6 +1,6 @@
 var $Img = document.querySelector('.right');
 
-$Img.addEventListener('keydown', turnCar);
+window.addEventListener('keydown', turnCar);
 
 function turnCar(event) {
   if (event.key === 'ArrowLeft') {
